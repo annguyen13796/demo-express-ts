@@ -7,7 +7,7 @@
         "test": "jest --coverage",
         "start": "NODE_ENV=product node server.js",
         "dev": "nodemon src/server.ts",
-        "build": "tsc",
+        "build": "tsc --build",
         "postinstall": "npm run build"
     },
     "author": "",
